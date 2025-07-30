@@ -1,0 +1,11 @@
+{
+    "name": "new/adminmenu",
+    "description": "Custom Admin Menu Module",
+    "type": "magento2-module",
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "New\\AdminMenu\\": ""
+        }
+    }
+}
