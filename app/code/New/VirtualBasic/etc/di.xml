@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <virtualType name="New\VirtualBasic\Model\Greeter\Admin" type="New\VirtualBasic\Model\Greeter">
+        <arguments>
+            <argument name="name" xsi:type="string">Admin User</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="New\VirtualBasic\Controller\Index\Test">
+        <arguments>
+            <argument name="greeter" xsi:type="object">New\VirtualBasic\Model\Greeter\Admin</argument>
+        </arguments>
+    </type>
+</config>
