@@ -10,3 +10,6 @@ class ProductLog extends AbstractModel
         $this->_init(\New\FactoryTest\Model\ResourceModel\ProductLog::class);
     }
 }
+
+ 
+ 
