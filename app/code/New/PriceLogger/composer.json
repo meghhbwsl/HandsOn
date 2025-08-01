@@ -1,0 +1,17 @@
+{
+    "name": "new/pricelogger",
+    "description": "Logs prices using a preference",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "New\\PriceLogger\\": ""
+        }
+    }
+}
