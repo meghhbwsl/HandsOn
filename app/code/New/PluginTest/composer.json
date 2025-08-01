@@ -1,0 +1,17 @@
+{
+  "name": "new/module-plugintest",
+  "description": "Magento 2 Plugin test module",
+  "require": {
+    "php": ">=7.3"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "New\\PluginTest\\": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="beforeplugin1" type="New\PluginTest\Plugin\BeforePlugin1" sortOrder="10"/>
+        <plugin name="beforeplugin2" type="New\PluginTest\Plugin\BeforePlugin2" sortOrder="20"/>
+        <plugin name="afterplugin1" type="New\PluginTest\Plugin\AfterPlugin1" sortOrder="10"/>
+        <plugin name="afterplugin2" type="New\PluginTest\Plugin\AfterPlugin2" sortOrder="20"/>
+        <plugin name="aroundplugin1" type="New\PluginTest\Plugin\AroundPlugin1" sortOrder="10"/>
+        <plugin name="aroundplugin2" type="New\PluginTest\Plugin\AroundPlugin2" sortOrder="20"/>
+    </type>
+
+</config>
