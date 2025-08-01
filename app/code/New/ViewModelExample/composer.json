@@ -1,0 +1,18 @@
+{
+    "name": "new/viewmodelexample",
+    "description": "ViewModel example module",
+    "require": {
+        "php": "^7.4 || ^8.1"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "New\\ViewModelExample\\": ""
+        }
+    }
+}

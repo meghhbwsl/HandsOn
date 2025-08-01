@@ -1,0 +1,11 @@
+<?php
+/** @var \New\ViewModelExample\ViewModel\ProductInfo $viewModel */
+$viewModel = $block->getViewModel();
+?>
+
+<div class="viewmodel-example-box">
+    <h2><?= $block->escapeHtml($viewModel->getGreeting()) ?></h2>
+    <p><strong>Current Time:</strong> <?= $block->escapeHtml($viewModel->getCurrentTime()) ?></p>
+    <p><strong>Product SKU:</strong> <?= $block->escapeHtml($viewModel->getProductSku()) ?></p>
+    <p><strong>Formatted Price (1234.56):</strong> <?= $viewModel->formatPrice(1234.56) ?></p>
+</div>
