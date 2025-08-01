@@ -1,5 +1,7 @@
 <?php
+
 namespace New\FactoryTest\Observer;
+
 
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\Event\Observer;
